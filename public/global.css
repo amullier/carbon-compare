@@ -31,29 +31,29 @@ button {
 }
 
 .ghg-1 {
-  background: green;
+  background: rgb(2,192,1);
 }
 .ghg-2 {
-  background: rgb(0, 151, 126);
+  background: rgb(3, 192, 160);
 }
 .ghg-3 {
-  background: rgb(0, 60, 71);
+  background: rgb(1, 140, 165);
 }
 .ghg-4 {
-  background: rgb(0, 42, 110);
+  background: rgb(29, 102, 219);
 }
 .ghg-5 {
   background: rgb(12, 0, 117);
 }
 .ghg-6 {
-  background: rgb(192, 86, 0);
+  background: rgb(219, 101, 5);
 }
 .ghg-7 {
-  background: rgb(100, 37, 0);
+  background: rgb(163, 60, 0);
 }
 .ghg-8 {
-  background: rgb(128, 0, 100);
+  background: rgb(206, 0, 161);
 }
 .ghg-9 {
-  background: rgb(128, 0, 0);
+  background: rgb(187, 0, 0);
 }
