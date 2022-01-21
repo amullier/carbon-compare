@@ -5,7 +5,7 @@
     removeFromSelection,
   } from "../../../stores/selection-store.js";
   function increaseNumberUnit(carbonData) {
-    const numberUnit = carbonData.numberUnit + 1;
+    const numberUnit = parseInt(carbonData.numberUnit) + 1;
     updateNumberUnit(carbonData.id, numberUnit);
   }
 

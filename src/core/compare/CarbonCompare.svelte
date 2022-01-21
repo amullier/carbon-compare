@@ -54,14 +54,14 @@
 
   function getGhgClass(ghg) {
     let ghgSquareClass = 9;
-    if (ghg < 2 * A_TON_IN_GRAMS) ghgSquareClass = 8;
-    if (ghg < 1 * A_TON_IN_GRAMS) ghgSquareClass = 7;
-    if (ghg < 500 * A_KILO_IN_GRAMS) ghgSquareClass = 6;
+    if (ghg < 1 * A_TON_IN_GRAMS) ghgSquareClass = 8;
+    if (ghg < 500 * A_KILO_IN_GRAMS) ghgSquareClass = 7;
+    if (ghg < 250 * A_KILO_IN_GRAMS) ghgSquareClass = 6;
     if (ghg < 100 * A_KILO_IN_GRAMS) ghgSquareClass = 5;
-    if (ghg < 10 * A_KILO_IN_GRAMS) ghgSquareClass = 4;
-    if (ghg < 1 * A_KILO_IN_GRAMS) ghgSquareClass = 3;
-    if (ghg < 100) ghgSquareClass = 2;
-    if (ghg < 10) ghgSquareClass = 1;
+    if (ghg < 50 * A_KILO_IN_GRAMS) ghgSquareClass = 4;
+    if (ghg < 10 * A_KILO_IN_GRAMS) ghgSquareClass = 3;
+    if (ghg < 5 * A_KILO_IN_GRAMS) ghgSquareClass = 2;
+    if (ghg < 1 * A_KILO_IN_GRAMS) ghgSquareClass = 1;
     if (ghg < 1) ghgSquareClass = 0;
 
     return "ghg-" + ghgSquareClass;
