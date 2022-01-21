@@ -99,13 +99,13 @@ export const carbonCompareDataset = readable([
     categories: [
       {
         category: {
-          id: 3100,
+          id: 3,
           label: "Quelques trajets",
           hide: false,
         },
         entries: [
           {
-            id: 3101,
+            id: 31,
             numberUnit: 1,
             source: {
               label: "ADEME",
@@ -115,7 +115,17 @@ export const carbonCompareDataset = readable([
             ghg: 1900,
           },
           {
-            id: 3102,
+            id: 32,
+            numberUnit: 1,
+            source: {
+              label: "ADEME",
+              link: "",
+            },
+            label: "10km de bus (thermique) 🚌💨",
+            ghg: 1000,
+          },
+          {
+            id: 33,
             numberUnit: 1,
             source: {
               label: "SNCF",
@@ -125,14 +135,14 @@ export const carbonCompareDataset = readable([
             ghg: 600,
           },
           {
-            id: 3103,
+            id: 35,
             numberUnit: 1,
             source: {
               label: "ADEME",
               link: "",
             },
             label: "Aller retour Paris<>New York en avion ✈️",
-            ghg: 1400000,
+            ghg: 1700000,
           },
         ],
       },
@@ -190,52 +200,100 @@ export const carbonCompareDataset = readable([
   {
     category: {
       id: 5000,
-      label: "🖥️ Numérique",
+      label: "👕🖥️ Achats & consommation",
       hide: false,
     },
-    categories: [],
-    entries: [
+    entries: [],
+    categories: [
       {
-        id: 5101,
-        numberUnit: 1,
-        source: {
-          label: "Dell",
-          link: "",
+        category: {
+          id: 5200,
+          label: "Achats divers",
+          hide: false,
         },
-        label: "Ordinateur portable 15' 💻",
-        ghg: 326000,
+        entries: [
+          {
+            id: 5201,
+            numberUnit: 1,
+            source: {
+              label: "ADEME",
+              link: "",
+            },
+            label: "Jean en coton 👖",
+            ghg: 23200,
+          },
+          {
+            id: 5202,
+            numberUnit: 1,
+            source: {
+              label: "ADEME",
+              link: "",
+            },
+            label: "Table en bois massif",
+            ghg: 80200,
+          },
+          {
+            id: 5203,
+            numberUnit: 1,
+            source: {
+              label: "ADEME",
+              link: "",
+            },
+            label: "Trottinette électrique 🛴",
+            ghg: 91900,
+          },
+        ]
       },
       {
-        id: 5102,
-        numberUnit: 1,
-        source: {
-          label: "Dell",
-          link: "",
+        category: {
+          id: 5100,
+          label: "🖥️ Numérique",
+          hide: true,
         },
-        label: "Ecran 25' 4K 🖥️",
-        ghg: 561000,
+        entries: [
+          {
+            id: 5101,
+            numberUnit: 1,
+            source: {
+              label: "Dell",
+              link: "",
+            },
+            label: "Ordinateur portable 15' 💻",
+            ghg: 326000,
+          },
+          {
+            id: 5102,
+            numberUnit: 1,
+            source: {
+              label: "Dell",
+              link: "",
+            },
+            label: "Ecran 25' 4K 🖥️",
+            ghg: 561000,
+          },
+          {
+            id: 5103,
+            numberUnit: 1,
+            source: {
+              label: "Apple",
+              link: "",
+            },
+            label: "iPhone 13 Pro 📱",
+            ghg: 69000,
+          },
+          {
+            id: 5104,
+            numberUnit: 1,
+            source: {
+              label: "Apple",
+              link: "",
+            },
+            label: "iMac 27' 5K 🖥️",
+            ghg: 824000,
+          },
+        ],
       },
-      {
-        id: 5103,
-        numberUnit: 1,
-        source: {
-          label: "Apple",
-          link: "",
-        },
-        label: "iPhone 13 Pro 📱",
-        ghg: 69000,
-      },
-      {
-        id: 5104,
-        numberUnit: 1,
-        source: {
-          label: "Apple",
-          link: "",
-        },
-        label: "iMac 27' 5K 🖥️",
-        ghg: 824000,
-      },
-    ],
+    ]
   },
   {
     category: {
@@ -252,7 +310,7 @@ export const carbonCompareDataset = readable([
           label: "Dell",
           link: "",
         },
-        label: "Budget carbone par personne 🌱🌎",
+        label: "Budget carbone /pers /an 🌱🌎",
         ghg: 2000000,
       },
     ],
